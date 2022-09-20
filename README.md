@@ -1,6 +1,6 @@
 # VBA Challenge
 
-## Overivew of Project
+## Overview of Project
 The purpose of this VBA analysis project was to determine which stocks contained within the provided VBA_Challenge.xlsx file provided the best annual returns in 2017 and 2018. The output of this script will allow novice stock market investors make informed decisions on which "green" stocks are the best to invest in based on historical stocks data.
 
 ## Results
