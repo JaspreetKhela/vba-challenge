@@ -6,59 +6,59 @@ The purpose of this VBA analysis project was to determine which stocks contained
 ## Results
 
 ### Analysis Results from Refactored Code
-The results from the analysis are shown below.
+The results from the analysis scripts are shown below.
 _____
 
 <img width="579" alt="All_Stocks_2017" src="https://user-images.githubusercontent.com/80941606/191327317-7c1a00b9-e8ed-4b5e-8880-601dad333f6d.png">
 
-**Table 1**: This is the output table for the 2017 analysis. This matches the output table from the original script.
+**Table 1**: This is the output table for the 2017 analysis script. This matches the output table from the original script.
 
 _____
 
 <img width="579" alt="All_Stocks_2018" src="https://user-images.githubusercontent.com/80941606/191327427-904fa5e9-2f0f-415f-8ca7-4555d495338d.png">
 
-**Table 2**: This is the output table for the 2018 analysis. This matches the output table from the original script.
+**Table 2**: This is the output table for the 2018 analysis script. This matches the output table from the original script.
 
 _____
 
 
 ### Analysis Script Execution Times
-The excution times of the original and refactored scripts for the years 2017 and 2018 are shown below. 
+The excution times of the original and refactored analysis scripts for the years 2017 and 2018 are shown below. 
 
 _____
 
 
 <img width="1433" alt="VBA_Challenge_2017_Original" src="https://user-images.githubusercontent.com/80941606/191331267-11dd683c-4610-4b00-acea-5ab529230967.png">
 
-**Image 1**: This is the script's duration message for the original 2017 analysis.
+**Image 1**: This is the analysis script's duration message for the original 2017 analysis.
 
 _____
 
 
 <img width="1433" alt="VBA_Challenge_2018_Original" src="https://user-images.githubusercontent.com/80941606/191331317-da745927-e7df-4b0e-90da-6d529c645982.png">
 
-**Image 2**: This is the script's duration message for the original 2018 analysis.
+**Image 2**: This is the analysis script's duration message for the original 2018 analysis.
 
 _____
 
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/80941606/191327686-f5733aae-9fe3-4b78-b63c-331005c250b6.png)
 
-**Image 3**: This is the script's duration message for the new 2017 analysis.
+**Image 3**: This is the analysis script's duration message for the new 2017 analysis.
 
 _____
 
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/80941606/191327799-cf8ed010-4a52-4a9a-a5c0-880a10a67d6a.png)
 
-**Image 4**: This is the script's duration message for the new 2017 analysis.
+**Image 4**: This is the analysis script's duration message for the new 2018 analysis.
 
 _____
 
-As can be seen in the images above, the refactored analysis scripts for 2017 was 0.78/0.13 = 6 times faster and the refactored analysis script for 2018 was 0.81/0.18 = 4.5 times faster than the original analysis scripts. Consequently, the refractored scripts were significantly faster than the original scripts.
+As can be seen in the images above, the refactored analysis script for 2017 was 0.78/0.13 = 6 times faster and the refactored analysis script for 2018 was 0.81/0.18 = 4.5 times faster than the original analysis scripts for 2017 and 2018, respectively. Consequently, the refractored analysis scripts were significantly faster than the original scripts.
 
 ### Script Improvements
-This improvement in the analysis script's efficieny was achieved by replacing the following code in the original script with code that does not include nested for loops (as seen in the macro in the VBA_Challenge.xlsm file):
+This improvement in the analysis script's efficieny was achieved by replacing the following code in the original script with code that does not include nested for loops (as seen in the macro in the VBA_Challenge.xlsm file) in the refactored code:
 
 ```
 '4) Loop through tickers
@@ -98,7 +98,7 @@ This improvement in the analysis script's efficieny was achieved by replacing th
 
 ```
 
-The refactored code is as follows:
+The above original code's refactored version is as follows:
 
 ```
 ''2b) Loop over all the rows in the spreadsheet.
@@ -176,7 +176,7 @@ The refactored code is as follows:
 ## Summary
 
 ### General Advantages and Disadvantages of Refactoring Code
-In summary, an advantage of refactoring code is that the code becomes more efficient, which will allow us to process larger datasets in a timely manner. Additionally, refactoring code can also make the code more readable. However, a disadvantage of refactoring code is that efficieny may not improve enough to justify spending time on the refactoring process. Moreover, refactoring code may introduce new problems (i.e. bugs) into the codebase.
+In summary, an advantage of refactoring code is that the code becomes more efficient, which will allow us to process larger datasets in a timely manner. Additionally, refactoring code can also make the code more readable. However, a disadvantage of refactoring code is that the code's efficiency may not improve enough to justify spending time on the refactoring process. Moreover, refactoring code may introduce new problems (i.e. bugs) into the codebase.
 
 ### Advantages of Disadvantages of Refactoring the Stocks Analysis Script
-In this context, refactoring code did signficantly improve the performance of the original analysis script, so refactoring was justified in this case. However, refactoring the code did introduce new bugs into the code which took some time to fix.
+In this context, refactoring the original analysis script did signficantly improve the performance of the original analysis script, so refactoring was justified in this case. However, refactoring the code did introduce new bugs into the code which took some time to fix.
